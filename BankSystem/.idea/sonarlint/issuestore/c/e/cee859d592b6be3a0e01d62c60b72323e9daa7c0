@@ -1,0 +1,13 @@
+
+L
+java:S19483"1Make "mainViewHandler" transient or serializable.(“ïøÿÿÿÿ
+X	java:S125""<This block of commented-out lines of code should be removed.(°ô×¢8ı¹ÛÏ‘0
+S
+java:S3252J"=Use static access with "java.awt.Frame" for "MAXIMIZED_BOTH".(®Ğ–
+d
+java:S3252L"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(Õû»öşÿÿÿÿ
+X	java:S125Y"<This block of commented-out lines of code should be removed.(Õô™ú8¥äÛÏ‘0
+X	java:S125s"<This block of commented-out lines of code should be removed.(‰âı8ì¤ÜÏ‘0
+Y	java:S125‚"<This block of commented-out lines of code should be removed.(™ïßå8ÜĞÜÏ‘0
+[	java:S106"9Replace this use of System.out or System.err by a logger.(¿£÷Óúÿÿÿÿ8¨å½Ğ‘0
+V	java:S106¯"9Replace this use of System.out or System.err by a logger.(Îó‰”8Ğà¾Ğ‘0

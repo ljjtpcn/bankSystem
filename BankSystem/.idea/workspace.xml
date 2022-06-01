@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="58ae3133-8451-488f-8989-3980da0a208b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../java实验工程代码(IDEA)/booksystem/src/test/java/cn/twopair/test/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/twopair/res/TableDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/twopair/service/Services.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/twopair/util/Check.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/twopair/view/handler/AddCardNumberViewHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/twopair/view/handler/AddHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/twopair/view/handler/MainViewHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/twopair/view/handler/ModifyPasswordViewHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/twopair/view/handler/TransferHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/twopair/view/handler/WithdrawalHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/twopair/view/window/AddCardNumberView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/twopair/view/window/AddView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/twopair/view/window/MainView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/twopair/view/window/ModifyPasswordView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/twopair/view/window/TransferView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/twopair/view/window/WithdrawalView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java实验工程代码(IDEA)/.idea/sonarlint/issuestore/6/1/61a55e2320fcb4d7c642b14a14bc8d388a6879d9" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java实验工程代码(IDEA)/.idea/sonarlint/issuestore/6/1/61a55e2320fcb4d7c642b14a14bc8d388a6879d9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java实验工程代码(IDEA)/.idea/sonarlint/issuestore/6/4/64cd739665079764af54887971b1ea125e45fbfc" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java实验工程代码(IDEA)/.idea/sonarlint/issuestore/6/4/64cd739665079764af54887971b1ea125e45fbfc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java实验工程代码(IDEA)/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java实验工程代码(IDEA)/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java实验工程代码(IDEA)/booksystem/src/main/java/cn/twopair/dao/BookInfoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java实验工程代码(IDEA)/booksystem/src/main/java/cn/twopair/dao/BookInfoDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java实验工程代码(IDEA)/booksystem/src/main/java/cn/twopair/view/util/BulkImportUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java实验工程代码(IDEA)/booksystem/src/main/java/cn/twopair/view/util/BulkImportUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java实验工程代码(IDEA)/booksystem/src/test/java/cn/twopair/test/TestQueryBybookname.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java实验工程代码(IDEA)/out/production/网络编程/classroom/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java实验工程代码(IDEA)/out/production/网络编程/classroom/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java实验工程代码(IDEA)/网络编程/src/classroom/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java实验工程代码(IDEA)/网络编程/src/classroom/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../操作系统/实验5(动态优先级调度)/schedulingAlgorithm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a1f231ea-e93f-4447-84bc-4cac58dfe7c4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a1f231ea-e93f-4447-84bc-4cac58dfe7c4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a1f231ea-e93f-4447-84bc-4cac58dfe7c4/storage_v2/_src_/schema/bank.PAYuAA.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a1f231ea-e93f-4447-84bc-4cac58dfe7c4/storage_v2/_src_/schema/bank.PAYuAA.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/7/37bc5cf93eb85a7502929e96a38c1fea019e01d1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/5/7503c64abd50e0f80f59a742542435f3d617c471" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/5/7503c64abd50e0f80f59a742542435f3d617c471" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/9/8979d7dd44d1d8b7685fd6c730fee8bd03d4f1d1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/0/9011adb91a1482f99e73c2b6056d9a3691f6fbfd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/0/9011adb91a1482f99e73c2b6056d9a3691f6fbfd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/e/cea58ae2ba43e7e5cd6bf9cbd13860378a803768" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cn/twopair/service/ServicesMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/twopair/APP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/twopair/APP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/twopair/dao/DaoUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/twopair/dao/DaoUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/twopair/mappers/LogMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/twopair/mappers/LogMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/twopair/mappers/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/twopair/mappers/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/twopair/pojo/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/twopair/pojo/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/twopair/pojo/Deposit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/twopair/pojo/Deposit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/twopair/pojo/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/twopair/pojo/Log.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/twopair/pojo/Transfer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/twopair/pojo/Transfer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/twopair/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/twopair/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/twopair/pojo/Withdrawal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/twopair/pojo/Withdrawal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/twopair/view/handler/LoginHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/twopair/view/handler/LoginHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/twopair/view/handler/RegisterHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/twopair/view/handler/RegisterHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/twopair/view/util/BulkImportUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/twopair/util/BulkImportUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/twopair/view/util/CheckUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/twopair/util/CheckUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/twopair/view/util/CodePictureUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/twopair/util/CodePictureUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/twopair/view/util/DimensionUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/twopair/util/DimensionUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/twopair/view/util/SetBackgroundUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/twopair/util/SetBackgroundUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/twopair/view/util/SetIconUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/twopair/util/SetIconUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/twopair/view/window/LoginView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/twopair/view/window/LoginView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/twopair/view/window/RegisterView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/twopair/view/window/RegisterView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/twopair/view/window/table/MainViewTableModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/twopair/view/window/table/MainViewTableModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/cn/twopair/mappers/LogMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cn/twopair/mappers/LogMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/cn/twopair/mappers/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cn/twopair/mappers/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/cn/twopair/mappers/transferMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cn/twopair/mappers/TransferMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cn/twopair/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cn/twopair/dao/DaoUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cn/twopair/pojo/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/twopair/APP.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/twopair/APP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/twopair/dao/DaoUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/twopair/dao/DaoUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/twopair/mappers/LogMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/twopair/mappers/LogMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/twopair/mappers/LogMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/twopair/mappers/LogMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/twopair/mappers/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/twopair/mappers/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/twopair/mappers/transferMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/twopair/pojo/Card.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/twopair/pojo/Card.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/twopair/pojo/Deposit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/twopair/pojo/Deposit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/twopair/pojo/Log.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/twopair/pojo/Log.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/twopair/pojo/Transfer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/twopair/pojo/Transfer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/twopair/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/twopair/pojo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/twopair/pojo/Withdrawal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/twopair/pojo/Withdrawal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/twopair/view/handler/LoginHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/twopair/view/handler/LoginHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/twopair/view/handler/RegisterHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/twopair/view/handler/RegisterHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/twopair/view/util/BulkImportUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/twopair/view/util/CheckUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/twopair/view/util/CodePictureUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/twopair/view/util/DimensionUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/twopair/view/util/SetBackgroundUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/twopair/view/util/SetIconUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/twopair/view/window/LoginView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/twopair/view/window/LoginView$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/twopair/view/window/LoginView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/twopair/view/window/LoginView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/twopair/view/window/RegisterView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/twopair/view/window/RegisterView$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/twopair/view/window/RegisterView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/twopair/view/window/RegisterView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/twopair/view/window/table/MainViewTableModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/twopair/view/window/table/MainViewTableModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../数电实验/数电辅导与习题解答.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../计组原理/4/计算机组成原理实验报告四 B20200601133孙紫铭(副本).docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/maven.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/maven.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/src/data/message1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/src/data/message2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/src/main/java/window/BackgoundPan.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/src/main/java/window/BackgoundPan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/src/main/java/window/LoginView.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/src/main/java/window/LoginView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/src/main/java/window/MainView.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/src/main/java/window/MainView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/src/main/resources/log4j2.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/src/test/java/window/AddViewTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/src/test/java/window/Demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/src/test/java/window/VisualizationLineViewTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/src/test/java/window/VisualizationRadarViewTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/com/yujianbo/swing/test$chart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/com/yujianbo/swing/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/entity/AddDO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/entity/AdminDO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/entity/DeleteDO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/entity/ModifyIncomeDO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/entity/RegisterDO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/handler/AddHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/handler/ChangeHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/handler/DeleteHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/handler/LoginHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/handler/MainViewHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/handler/RegisterHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/handler/StatisticsViewHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/handler/special/AlphabetNumberHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/handler/special/DateHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/handler/special/MoneyHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/handler/special/NumberHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/img/StatisticsViewbk.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/img/add.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/img/backStatistics.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/img/bk.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/img/brokenLine.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/img/cancel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/img/cancel_max.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/img/changeback.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/img/date.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/img/date32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/img/delete.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/img/deleteBack.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/img/deleteLogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/img/deleteView.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/img/edit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/img/expend.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/img/female.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/img/gif.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/img/id32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/img/income.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/img/lastMonth.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/img/lastWeek.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/img/lastYear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/img/login.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/img/logo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/img/male.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/img/modify.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/img/money.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/img/money32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/img/name.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/img/next.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/img/ok.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/img/password.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/img/paysure.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/img/pig.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/img/pre.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/img/radar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/img/register.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/img/remark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/img/remark32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/img/search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/img/select.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/img/sex.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/img/statistic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/img/statistics.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/img/sure.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/img/sure32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/img/sure_Statistics.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/img/sure_min.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/img/thisMonth.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/img/thisWeek.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/img/thisYear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/img/type.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/img/type32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/img/username.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/img/username32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/log4j2.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/login/APP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/req/GraphicaRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/req/StudentRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/req/TotalIncomeRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/res/GraphicalDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/res/RowDO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/res/TableDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/res/TotalIncomeDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/service/AddService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/service/AdminService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/service/DeleteService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/service/GraphicalService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/service/ModifyService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/service/RegisterService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/service/StudentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/service/impl/AddServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/service/impl/AdminServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/service/impl/DeleteServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/service/impl/GraphicalServiceimpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/service/impl/ModifyImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/service/impl/RegisterServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/service/impl/StudentServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/util/BulkImportUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/util/CheckUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/util/CodePictureUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/util/DBUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/util/DimensionUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/util/SetBackgroundUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/util/SetIconUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/window/AddView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/window/BackgoundPan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/window/ChangeView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/window/DeleteView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/window/LoginView$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/window/LoginView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/window/MainView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/window/RegisterView$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/window/RegisterView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/window/StatisticsView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/window/TotalExpendDialog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/window/TotalIncomeDialog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/window/VisualizationLineView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/window/VisualizationRadarView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/window/ext/MainViewCellRender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/window/ext/MainViewTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/window/ext/MainViewTableModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/window/ext/TotalCellRender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/window/ext/TotalTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/2021-2022-1-Java课设/maven/target/classes/window/ext/TotalTableModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程设计/Java课堂实验图书管理系统/booksystem" beforeDir="false" afterPath="$PROJECT_DIR$/../../../课程设计/Java课堂实验图书管理系统/booksystem" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Tag Library Descriptor" />
+        <option value="mybatis-mapper" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/cn/twopair/APP.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/cn/twopair/dao/DaoUtil.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/cn/twopair/util/Check.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/cn/twopair/view/handler/AddHandler.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/cn/twopair/view/handler/MainViewHandler.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/cn/twopair/view/handler/RegisterHandler.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/cn/twopair/view/handler/WithdrawalHandler.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/cn/twopair/view/window/AddView.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/cn/twopair/view/window/MainView.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/cn/twopair/view/window/WithdrawalView.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/resources/cn/twopair/mappers/UserMapper.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/resources/cn/twopair/service/ServicesMapper.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/resources/db.properties" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/resources/log4j.properties" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$USER_HOME$/myrepo" />
+        <option name="mavenHome" value="$USER_HOME$/tools/apache-maven-3.8.5" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="$USER_HOME$/tools/apache-maven-3.8.5/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="28h2G7MVIAhuhSzne5QCNnT5PHS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/ljjtpcn/Desktop/work/CS学科/课程设计/2021-2022-1-Java课设/maven&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor.code.editing&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="cn.twopair.view.handler" />
+      <recent name="cn.twopair.view.window" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/cn/twopair/view/handler" />
+      <recent name="$PROJECT_DIR$/src/main/java/cn/twopair/view/window" />
+      <recent name="$PROJECT_DIR$/src/main/java/cn/twopair/service" />
+      <recent name="$PROJECT_DIR$/src/main/java/cn/twopair/view/window/table" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/cn/twopair/mappers" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.twopair.view.handler" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.APP">
+    <configuration name="APP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.twopair.APP" />
+      <module name="BankSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.twopair.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cn.twopair.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.twopair.Main" />
+      <module name="BankSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.twopair.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="APP.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BankSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.twopair.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.twopair" />
+      <option name="MAIN_CLASS_NAME" value="cn.twopair.APP" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.APP" />
+        <item itemvalue="JUnit.APP.test" />
+        <item itemvalue="Application.cn.twopair.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="58ae3133-8451-488f-8989-3980da0a208b" name="Changes" comment="" />
+      <created>1651654398720</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1651654398720</updated>
+      <workItem from="1651654400342" duration="2468000" />
+      <workItem from="1651656877432" duration="1882000" />
+      <workItem from="1651662622934" duration="5325000" />
+      <workItem from="1651667958166" duration="737000" />
+      <workItem from="1651668703666" duration="940000" />
+      <workItem from="1651711166374" duration="8493000" />
+      <workItem from="1651931497893" duration="157000" />
+      <workItem from="1652079116930" duration="62000" />
+      <workItem from="1652148004385" duration="7229000" />
+      <workItem from="1652172532209" duration="1587000" />
+      <workItem from="1652175014379" duration="6693000" />
+      <workItem from="1652182651817" duration="119000" />
+      <workItem from="1652265839798" duration="735000" />
+      <workItem from="1652666626741" duration="91000" />
+      <workItem from="1652876923290" duration="1877000" />
+      <workItem from="1652923480300" duration="57000" />
+      <workItem from="1652923551789" duration="35000" />
+      <workItem from="1652923736504" duration="5000" />
+      <workItem from="1652923880105" duration="21000" />
+      <workItem from="1653460736791" duration="6594000" />
+      <workItem from="1653470058494" duration="5170000" />
+      <workItem from="1653475909919" duration="5574000" />
+      <workItem from="1653483113398" duration="1065000" />
+      <workItem from="1653484187124" duration="1591000" />
+      <workItem from="1653486341822" duration="4000" />
+      <workItem from="1653529066605" duration="7446000" />
+      <workItem from="1653538334702" duration="16277000" />
+      <workItem from="1653617407344" duration="47000" />
+      <workItem from="1653621365417" duration="1049000" />
+      <workItem from="1653647669890" duration="578000" />
+      <workItem from="1653909216453" duration="137000" />
+      <workItem from="1653909360388" duration="41000" />
+      <workItem from="1653983020007" duration="14670000" />
+      <workItem from="1654044713564" duration="1357000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

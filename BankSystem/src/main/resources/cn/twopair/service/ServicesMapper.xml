@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--名称空间-->
+<mapper namespace="cn.twopair.service.Services">
+
+
+    <!--注册账号-->
+    <parameterMap id="registerMap" type="java.util.Map">
+        <parameter property="id" mode="IN" jdbcType="VARCHAR"/>
+        <parameter property="password" mode="IN" jdbcType="VARCHAR"/>
+        <parameter property="sex" mode="IN" jdbcType="VARCHAR"/>
+        <parameter property="phone" mode="IN" jdbcType="VARCHAR"/>
+        <parameter property="flag" mode="OUT" jdbcType="BOOLEAN"/>
+    </parameterMap>
+    <select id="regist" parameterMap="registerMap" statementType="CALLABLE">
+        CALL register(?, ?, ?, ?, ?);
+    </select>
+
+    <!--登录账号-->
+    <parameterMap id="loginMap" type="java.util.Map">
+        <parameter property="id" mode="IN" jdbcType="VARCHAR"/>
+        <parameter property="password" mode="IN" jdbcType="VARCHAR"/>
+        <parameter property="flag" mode="OUT" jdbcType="BOOLEAN"/>
+    </parameterMap>
+    <select id="login" parameterMap="loginMap" statementType="CALLABLE">
+        CALL login(?, ?, ?);
+    </select>
+
+    <!--通过身份证号获取所有卡交易数据-->
+    <resultMap type="cn.twopair.pojo.Log" id="getAllTableData">
+        <result column="id" property="id"/>
+        <result column="cardNumber" property="cardNumber"/>
+        <result column="dealTime" property="dealTime"/>
+        <result column="money" property="money"/>
+        <result column="type" property="type"/>
+        <result column="comment" property="comment"/>
+        <result column="user" property="user"/>
+    </resultMap>
+    <select id="getTableDataByIdNumber" resultMap="getAllTableData">
+        SELECT *
+        FROM log
+        WHERE user = #{idNumber};
+    </select>
+
+    <!--通过银行卡号号获取本卡交易数据-->
+    <resultMap type="cn.twopair.pojo.Log" id="getCardTableData">
+        <result column="id" property="id"/>
+        <result column="cardNumber" property="cardNumber"/>
+        <result column="dealTime" property="dealTime"/>
+        <result column="money" property="money"/>
+        <result column="type" property="type"/>
+        <result column="comment" property="comment"/>
+        <result column="user" property="user"/>
+    </resultMap>
+    <select id="getTableDataByCardNumber" resultMap="getCardTableData">
+        SELECT *
+        FROM log
+        WHERE user = #{user}
+          AND cardNumber = #{card};
+    </select>
+
+    <!--存款-->
+    <parameterMap id="saveMap" type="java.util.Map">
+        <parameter property="user" mode="IN" jdbcType="VARCHAR"/>
+        <parameter property="cardNumber" mode="IN" jdbcType="VARCHAR"/>
+        <parameter property="money" mode="IN" jdbcType="DOUBLE"/>
+        <parameter property="comment" mode="IN" jdbcType="VARCHAR"/>
+        <parameter property="flag" mode="OUT" jdbcType="BOOLEAN"/>
+    </parameterMap>
+    <select id="bankSavings" parameterMap="saveMap" statementType="CALLABLE">
+        CALL bank_savings(?, ?, ?, ?, ?);
+    </select>
+
+    <!--取款-->
+    <parameterMap id="getMap" type="java.util.Map">
+        <parameter property="user" mode="IN" jdbcType="VARCHAR"/>
+        <parameter property="cardNumber" mode="IN" jdbcType="VARCHAR"/>
+        <parameter property="money" mode="IN" jdbcType="DOUBLE"/>
+        <parameter property="comment" mode="IN" jdbcType="VARCHAR"/>
+        <parameter property="flag" mode="OUT" jdbcType="BOOLEAN"/>
+    </parameterMap>
+    <select id="bankGets" parameterMap="getMap" statementType="CALLABLE">
+        CALL bank_withdraw(?, ?, ?, ?, ?);
+    </select>
+
+    <!--获取卡号对应密码-->
+    <select id="getCardPassword" resultType="java.lang.String">
+        SELECT password
+        FROM card
+        WHERE cardNumber = #{cardNumber};
+    </select>
+    <!--转账-->
+    <parameterMap id="transferMap" type="java.util.Map">
+        <parameter property="sendCardNumber" mode="IN" jdbcType="VARCHAR"/>
+        <parameter property="acceptCardNumber" mode="IN" jdbcType="VARCHAR"/>
+        <parameter property="money" mode="IN" jdbcType="DOUBLE"/>
+        <parameter property="flag" mode="OUT" jdbcType="BOOLEAN"/>
+    </parameterMap>
+    <select id="transfer" parameterMap="transferMap" statementType="CALLABLE">
+        CALL transfer(?, ?, ?, ?);
+    </select>
+
+    <!--开卡-->
+    <parameterMap id="openCardMap" type="java.util.Map">
+        <parameter property="user" mode="IN" jdbcType="VARCHAR"/>
+        <parameter property="password" mode="IN" jdbcType="VARCHAR"/>
+        <parameter property="money" mode="IN" jdbcType="DOUBLE"/>
+        <parameter property="cardNumber" mode="OUT" jdbcType="VARCHAR"/>
+        <parameter property="flag" mode="OUT" jdbcType="INTEGER"/>
+    </parameterMap>
+    <select id="openCard" parameterMap="openCardMap" statementType="CALLABLE">
+        CALL open_card(?, ?, ?, ?, ?);
+    </select>
+
+    <!--修改用户密码-->
+    <parameterMap id="modifyUserPasswordMap" type="java.util.Map">
+        <parameter property="user" mode="IN" jdbcType="VARCHAR"/>
+        <parameter property="newPassword" mode="IN" jdbcType="VARCHAR"/>
+        <parameter property="flag" mode="OUT" jdbcType="BOOLEAN"/>
+    </parameterMap>
+    <select id="modifyUserPassword" parameterMap="modifyUserPasswordMap" statementType="CALLABLE">
+        CALL modify_user_password(?, ?, ?);
+    </select>
+
+</mapper>

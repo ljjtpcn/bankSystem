@@ -1,0 +1,27 @@
+
+h	java:S116$"SRename this field "FLOW_HAP" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Æ¡ò‹
+h	java:S116%"SRename this field "FLOW_VAP" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾ŸØù
+p	java:S116&"VRename this field "LINE_HEIGHT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Þ‹ž†ÿÿÿÿÿ
+l	java:S116'"XRename this field "CONTENT_WIDTH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Û¡Ã1
+7
+java:S1170$"!Make this final field static too.(Æ¡ò‹
+7
+java:S1170%"!Make this final field static too.(¾ŸØù
+<
+java:S1170&"!Make this final field static too.(Þ‹ž†ÿÿÿÿÿ
+6
+java:S1170'"!Make this final field static too.(Û¡Ã1
+I
+java:S1948*".Make "springLayout" transient or serializable.(½éÔ„ýÿÿÿÿ
+P
+java:S1948+".Make "loginHandler" transient or serializable.(ò‡ÿšøÿÿÿÿ8ã¯ô0
+G
+java:S1135"2Complete the task associated to this TODO comment.(£°§\
+V	java:S125/"<This block of commented-out lines of code should be removed.(†¾…úÿÿÿÿ
+V
+java:S3252<"AUse static access with "javax.swing.SwingConstants" for "CENTER".(Ú×°H
+d
+java:S3252|"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(Õû»öþÿÿÿÿ
+X	java:S125~"<This block of commented-out lines of code should be removed.(ÇÐØ8ùòÁ×0
+V	java:S106Ô"9Replace this use of System.out or System.err by a logger.(É¥Œ¦8ù´Íý0
+W	java:S125ä"<This block of commented-out lines of code should be removed.(»ž•ûÿÿÿÿ

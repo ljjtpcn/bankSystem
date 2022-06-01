@@ -1,0 +1,24 @@
+
+`	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+_
+java:S11926"IDefine a constant instead of duplicating this literal "password" 3 times.(ú®ùé
+b
+java:S1192±"FDefine a constant instead of duplicating this literal "money" 4 times.(ï•€¦ıÿÿÿÿ
+„
+java:S1319ü"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(®àÆ
+€
+java:S1149g"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(ğºÂ²üÿÿÿÿ
+€
+java:S1149r"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(‰Ÿåüÿÿÿÿ
+
+java:S1149€"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(ğºÂ²üÿÿÿÿ
+
+java:S1149Š"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(‰Ÿåüÿÿÿÿ
+|
+java:S1149˜"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".( ‚ªÁ
+|
+java:S1149™"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(‹ãÔ¿
+P
+java:S1118":Add a private constructor to hide the implicit public one.(…ÉáÎ
+O	java:S106"9Replace this use of System.out or System.err by a logger.(¨ü¤©
+V	java:S106“"9Replace this use of System.out or System.err by a logger.(¼£òÛ8Ÿ½ÀĞ‘0

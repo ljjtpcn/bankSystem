@@ -1,0 +1,9 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="JavadocDeclaration" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ADDITIONAL_TAGS" value="Description,ClassName,Author,Version,Date,date,Param,Author:,Description:,Date:,Return:,author:,param:,description:,return:,date:,Param:,email:,version:" />
+    </inspection_tool>
+    <inspection_tool class="MybatisXMapperXmlInspection" enabled="false" level="ERROR" enabled_by_default="false" />
+  </profile>
+</component>
