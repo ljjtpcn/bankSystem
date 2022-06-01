@@ -5,8 +5,6 @@
 
 <!--名称空间-->
 <mapper namespace="cn.twopair.service.Services">
-
-
     <!--注册账号-->
     <parameterMap id="registerMap" type="java.util.Map">
         <parameter property="id" mode="IN" jdbcType="VARCHAR"/>

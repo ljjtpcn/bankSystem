@@ -185,8 +185,6 @@ public class LoginView extends JFrame {
             }
         });
 
-
-
         BulkImportUtil.add(centerPanel, userNameLabel, userNameField, passWordLabel, passWordField, codePanel, inputCode);
         BulkImportUtil.add(southPanel, loginButton, registerButton);
 
@@ -225,9 +223,6 @@ public class LoginView extends JFrame {
         return passWordField;
     }
 
-//    public static void main(String[] args) {
-//        new LoginView("dada");
-//    }
 
 }
 

@@ -23,5 +23,4 @@ java:S3252<"AUse static access with "javax.swing.SwingConstants" for "CENTER".(
 d
 java:S3252|"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(Õû»öşÿÿÿÿ
 X	java:S125~"<This block of commented-out lines of code should be removed.(ÇĞØ8ùòÁ×0
-V	java:S106Ô"9Replace this use of System.out or System.err by a logger.(É¥Œ¦8ù´Íı0
-W	java:S125ä"<This block of commented-out lines of code should be removed.(»•ûÿÿÿÿ
+V	java:S106Ò"9Replace this use of System.out or System.err by a logger.(É¥Œ¦8ù´Íı0
